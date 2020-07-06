@@ -1,4 +1,5 @@
 import * as Hapi from '@hapi/hapi';
+import { logger } from 'myapp-utils';
 
 const init = async () => {
 
@@ -9,6 +10,8 @@ const init = async () => {
 
     await server.start();
     console.log('Server running on %s', server.info.uri);
+    logger.info('logging via utils-package');
+    
 };
 
 process.on('unhandledRejection', (err) => {

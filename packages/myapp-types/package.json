@@ -1,0 +1,22 @@
+{
+  "name": "myapp-types",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Lauri Larjo <laurilarjo@gmail.com>",
+  "homepage": "https://github.com/laurilarjo/lerna-training#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurilarjo/lerna-training.git"
+  },
+  "scripts": {
+    "test": "echo \"This runs your tests"
+  }
+}
